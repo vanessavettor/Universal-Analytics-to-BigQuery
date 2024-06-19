@@ -7,10 +7,10 @@ import os
 
 # Configuration variables for Google Analytics and BigQuery
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-KEY_FILE_LOCATION = ''  # Path to your Google Cloud service account key file
-VIEW_ID = ''  # Your Google Analytics View ID
-BIGQUERY_PROJECT = ''  # Your Google Cloud Project ID
-BIGQUERY_DATASET = ''  # BigQuery Dataset name where the data will be stored
+KEY_FILE_LOCATION = ''C:\Users\VANESSA\Downloads\icontainersanalytics-4d26d6da8078.json'  # Path to your Google Cloud service account key file
+VIEW_ID = '212665317'  # Your Google Analytics View ID
+BIGQUERY_PROJECT = '107980010905550457728'  # Your Google Cloud Project ID
+BIGQUERY_DATASET = 'GAU exporting data'  # BigQuery Dataset name where the data will be stored
 BIGQUERY_TABLE = ''  # BigQuery Table name where the data will be stored, if it does not exist, it will be created
 
 # Setting up the environment variable for Google Application Credentials
